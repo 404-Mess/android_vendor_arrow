@@ -26,6 +26,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NetworkStackOverlay
 
+# Fonts
+include vendor/arrow/config/fonts.mk
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
